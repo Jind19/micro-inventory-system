@@ -3,7 +3,7 @@ version: '3.8'
 services:
   inventory-service:
     build:
-      context: ./inventory-service
+      context: .
       dockerfile: Dockerfile
     container_name: inventory-service
     ports:
@@ -11,4 +11,8 @@ services:
     environment:
       - MONGODB_URI=mongodb+srv://prachibansal135:1234@cluster0.8qq8xwu.mongodb.net/inventory?retryWrites=true&w=majority
     networks:
-      - backend
+      - micro-net
+
+networks:
+  micro-net:
+    external: true
