@@ -1,4 +1,4 @@
-package org.example.product.dto;
+package org.example.inventoryservice.dto;
 
 /**
  * DTO representing the request to create or update inventory for a product.

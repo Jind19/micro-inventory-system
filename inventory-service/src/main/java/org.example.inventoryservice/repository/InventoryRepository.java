@@ -1,6 +1,7 @@
-package org.example.product.repository;
+package org.example.inventoryservice.repository;
 
-import org.example.product.model.Inventory;
+
+import org.example.inventoryservice.model.Inventory;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Optional;

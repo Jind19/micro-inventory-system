@@ -1,8 +1,8 @@
-package org.example.product.service;
+package org.example.inventoryservice.service;
 
 import lombok.RequiredArgsConstructor;
-import org.example.product.model.Inventory;
-import org.example.product.repository.InventoryRepository;
+import org.example.inventoryservice.model.Inventory;
+import org.example.inventoryservice.repository.InventoryRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

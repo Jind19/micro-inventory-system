@@ -1,8 +1,9 @@
-package org.example.product.controller;
+package org.example.inventoryservice.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.example.product.dto.InventoryRequest;
-import org.example.product.service.InventoryService;
+
+import org.example.inventoryservice.dto.InventoryRequest;
+import org.example.inventoryservice.service.InventoryService;
 import org.springframework.web.bind.annotation.*;
 
 /**
