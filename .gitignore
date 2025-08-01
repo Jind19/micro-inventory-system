@@ -1,10 +1,18 @@
 .idea/
 product-service/.mvn
-product-service/.env
 product-service/docker-compose.yml
+product-service/target/
+
 
 inventory-service/.mvn
 inventory-service/src/main/resources/application.properties
 inventory-service/docker-compose.yml
+inventory-service/target/
 
-docker-compose.yml
+order-service/src/main/resources/application.properties
+order-service/docker-compose.yml
+order-service/target/
+order-service/mvnw.cmd
+order-service/.mvn
+order-service/mvnw
+
